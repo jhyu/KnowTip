@@ -1,1175 +1,927 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>A30D09EC1B0E2B8400F4464C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Facebook-128.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A30D09ED1B0E2B8400F4464C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A30D09EC1B0E2B8400F4464C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A30D09EE1B0E2B9A00F4464C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Twitter-Bird-128.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A30D09EF1B0E2B9A00F4464C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A30D09EE1B0E2B9A00F4464C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A30D09F01B0E2F6600F4464C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A349A2211B0E6EFD009833C8</string>
-				<string>A3C8A0D41B0E4E360088F194</string>
-				<string>A3C5860D1B0E3A8E00173685</string>
-				<string>A3C5860B1B0E3A6A00173685</string>
-				<string>A3C586091B0E38DD00173685</string>
-				<string>A3C586071B0E38CB00173685</string>
-				<string>A3C586051B0E38BB00173685</string>
-				<string>A3C585FF1B0E387000173685</string>
-				<string>A3C586011B0E388200173685</string>
-				<string>A3C585FD1B0E384100173685</string>
-				<string>A3F555E31B0FA4A00017AF7A</string>
-				<string>A311A7ED1B0E1B3000C66080</string>
-				<string>A30D09EE1B0E2B9A00F4464C</string>
-				<string>A30D09EC1B0E2B8400F4464C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Images</string>
-			<key>path</key>
-			<string>Images</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A311A7EB1B0DC17F00C66080</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>CountryDetailViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A311A7EC1B0DC17F00C66080</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A311A7EB1B0DC17F00C66080</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A311A7ED1B0E1B3000C66080</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>mountains.jpeg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A311A7EE1B0E1B3000C66080</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A311A7ED1B0E1B3000C66080</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A33987661B0FD77E00A506B2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Country.swift</string>
-			<key>path</key>
-			<string>Country.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A33987671B0FD77E00A506B2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A33987661B0FD77E00A506B2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A349A2211B0E6EFD009833C8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>jar.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A349A2221B0E6EFD009833C8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A349A2211B0E6EFD009833C8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3691D211B0D4EE100EAB92E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A30D09F01B0E2F6600F4464C</string>
-				<string>A3691D2C1B0D4EE100EAB92E</string>
-				<string>A3691D421B0D4EE200EAB92E</string>
-				<string>A3691D2B1B0D4EE100EAB92E</string>
-				<string>FDE9155F7D59B4FA48EBD80C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3691D221B0D4EE100EAB92E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0630</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Jason Yu</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>A3691D291B0D4EE100EAB92E</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.3</string>
-						<key>DevelopmentTeam</key>
-						<string>QK25HEAP6B</string>
-					</dict>
-					<key>A3691D3E1B0D4EE200EAB92E</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.3</string>
-						<key>TestTargetID</key>
-						<string>A3691D291B0D4EE100EAB92E</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>A3691D251B0D4EE100EAB92E</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>A3691D211B0D4EE100EAB92E</string>
-			<key>productRefGroup</key>
-			<string>A3691D2B1B0D4EE100EAB92E</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>A3691D291B0D4EE100EAB92E</string>
-				<string>A3691D3E1B0D4EE200EAB92E</string>
-			</array>
-		</dict>
-		<key>A3691D251B0D4EE100EAB92E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A3691D471B0D4EE200EAB92E</string>
-				<string>A3691D481B0D4EE200EAB92E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A3691D261B0D4EE100EAB92E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A33987671B0FD77E00A506B2</string>
-				<string>A3691D321B0D4EE100EAB92E</string>
-				<string>A3691D301B0D4EE100EAB92E</string>
-				<string>A311A7EC1B0DC17F00C66080</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A3691D271B0D4EE100EAB92E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A3691D281B0D4EE100EAB92E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A3C586021B0E388200173685</string>
-				<string>A3C586081B0E38CB00173685</string>
-				<string>A3C5860C1B0E3A6A00173685</string>
-				<string>A349A2221B0E6EFD009833C8</string>
-				<string>A3C586001B0E387000173685</string>
-				<string>A3C5860A1B0E38DD00173685</string>
-				<string>A311A7EE1B0E1B3000C66080</string>
-				<string>A3C8A0D51B0E4E360088F194</string>
-				<string>A3C585FE1B0E384100173685</string>
-				<string>A30D09ED1B0E2B8400F4464C</string>
-				<string>A3F555E41B0FA4A00017AF7A</string>
-				<string>A3691D351B0D4EE100EAB92E</string>
-				<string>A3C586061B0E38BB00173685</string>
-				<string>A3691D3A1B0D4EE100EAB92E</string>
-				<string>A3691D371B0D4EE100EAB92E</string>
-				<string>A30D09EF1B0E2B9A00F4464C</string>
-				<string>A3C5860E1B0E3A8E00173685</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A3691D291B0D4EE100EAB92E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A3691D491B0D4EE200EAB92E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>A3691D261B0D4EE100EAB92E</string>
-				<string>A3691D271B0D4EE100EAB92E</string>
-				<string>A3691D281B0D4EE100EAB92E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>KnowTip</string>
-			<key>productName</key>
-			<string>KnowTip</string>
-			<key>productReference</key>
-			<string>A3691D2A1B0D4EE100EAB92E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>A3691D2A1B0D4EE100EAB92E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>KnowTip.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>A3691D2B1B0D4EE100EAB92E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A3691D2A1B0D4EE100EAB92E</string>
-				<string>A3691D3F1B0D4EE200EAB92E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3691D2C1B0D4EE100EAB92E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A33987661B0FD77E00A506B2</string>
-				<string>A3691D2F1B0D4EE100EAB92E</string>
-				<string>A3691D311B0D4EE100EAB92E</string>
-				<string>A3691D331B0D4EE100EAB92E</string>
-				<string>A311A7EB1B0DC17F00C66080</string>
-				<string>A3691D361B0D4EE100EAB92E</string>
-				<string>A3691D381B0D4EE100EAB92E</string>
-				<string>A3691D2D1B0D4EE100EAB92E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>KnowTip</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3691D2D1B0D4EE100EAB92E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A3691D2E1B0D4EE100EAB92E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>path</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3691D2E1B0D4EE100EAB92E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3691D2F1B0D4EE100EAB92E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3691D301B0D4EE100EAB92E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3691D2F1B0D4EE100EAB92E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3691D311B0D4EE100EAB92E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3691D321B0D4EE100EAB92E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3691D311B0D4EE100EAB92E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3691D331B0D4EE100EAB92E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A3691D341B0D4EE100EAB92E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>path</key>
-			<string>.</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3691D341B0D4EE100EAB92E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3691D351B0D4EE100EAB92E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3691D331B0D4EE100EAB92E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3691D361B0D4EE100EAB92E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3691D371B0D4EE100EAB92E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3691D361B0D4EE100EAB92E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3691D381B0D4EE100EAB92E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A3691D391B0D4EE100EAB92E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.xib</string>
-			<key>path</key>
-			<string>.</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3691D391B0D4EE100EAB92E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3691D3A1B0D4EE100EAB92E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3691D381B0D4EE100EAB92E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3691D3B1B0D4EE200EAB92E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A3691D461B0D4EE200EAB92E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A3691D3C1B0D4EE200EAB92E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A3691D3D1B0D4EE200EAB92E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A3691D3E1B0D4EE200EAB92E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A3691D4C1B0D4EE200EAB92E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>A3691D3B1B0D4EE200EAB92E</string>
-				<string>A3691D3C1B0D4EE200EAB92E</string>
-				<string>A3691D3D1B0D4EE200EAB92E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>A3691D411B0D4EE200EAB92E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>KnowTipTests</string>
-			<key>productName</key>
-			<string>KnowTipTests</string>
-			<key>productReference</key>
-			<string>A3691D3F1B0D4EE200EAB92E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>A3691D3F1B0D4EE200EAB92E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>KnowTipTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>A3691D401B0D4EE200EAB92E</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>A3691D221B0D4EE100EAB92E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>A3691D291B0D4EE100EAB92E</string>
-			<key>remoteInfo</key>
-			<string>KnowTip</string>
-		</dict>
-		<key>A3691D411B0D4EE200EAB92E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>A3691D291B0D4EE100EAB92E</string>
-			<key>targetProxy</key>
-			<string>A3691D401B0D4EE200EAB92E</string>
-		</dict>
-		<key>A3691D421B0D4EE200EAB92E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A3691D451B0D4EE200EAB92E</string>
-				<string>A3691D431B0D4EE200EAB92E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>KnowTipTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3691D431B0D4EE200EAB92E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A3691D441B0D4EE200EAB92E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>path</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3691D441B0D4EE200EAB92E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3691D451B0D4EE200EAB92E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>KnowTipTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3691D461B0D4EE200EAB92E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3691D451B0D4EE200EAB92E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3691D471B0D4EE200EAB92E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string>-lc++</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string></string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A3691D481B0D4EE200EAB92E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string>-lc++</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string></string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A3691D491B0D4EE200EAB92E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A3691D4A1B0D4EE200EAB92E</string>
-				<string>A3691D4B1B0D4EE200EAB92E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A3691D4A1B0D4EE200EAB92E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>$(PROJECT_DIR)/Carthage/Build/iOS</string>
-					<string>$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/KnowTip-ebwgmfhfksvzcyfcorlsbarynpxq/Build/Products/Debug-iphoneos</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>KnowTip/Supporting Files/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_INSTALL_OBJC_HEADER</key>
-				<string>NO</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A3691D4B1B0D4EE200EAB92E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>$(PROJECT_DIR)/Carthage/Build/iOS</string>
-					<string>$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/KnowTip-ebwgmfhfksvzcyfcorlsbarynpxq/Build/Products/Debug-iphoneos</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>KnowTip/Supporting Files/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_INSTALL_OBJC_HEADER</key>
-				<string>NO</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A3691D4C1B0D4EE200EAB92E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A3691D4D1B0D4EE200EAB92E</string>
-				<string>A3691D4E1B0D4EE200EAB92E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A3691D4D1B0D4EE200EAB92E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>KnowTipTests/Supporting Files/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/KnowTip.app/KnowTip</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A3691D4E1B0D4EE200EAB92E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>KnowTipTests/Supporting Files/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/KnowTip.app/KnowTip</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A3C585FD1B0E384100173685</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>canada.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3C585FE1B0E384100173685</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3C585FD1B0E384100173685</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3C585FF1B0E387000173685</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>unitedstates.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3C586001B0E387000173685</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3C585FF1B0E387000173685</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3C586011B0E388200173685</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>vietnam.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3C586021B0E388200173685</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3C586011B0E388200173685</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3C586051B0E38BB00173685</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>taiwan.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3C586061B0E38BB00173685</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3C586051B0E38BB00173685</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3C586071B0E38CB00173685</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>argentina.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3C586081B0E38CB00173685</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3C586071B0E38CB00173685</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3C586091B0E38DD00173685</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>china.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3C5860A1B0E38DD00173685</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3C586091B0E38DD00173685</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3C5860B1B0E3A6A00173685</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>france.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3C5860C1B0E3A6A00173685</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3C5860B1B0E3A6A00173685</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3C5860D1B0E3A8E00173685</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>germany.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3C5860E1B0E3A8E00173685</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3C5860D1B0E3A8E00173685</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3C8A0D41B0E4E360088F194</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>pakistan.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3C8A0D51B0E4E360088F194</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3C8A0D41B0E4E360088F194</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3F555E31B0FA4A00017AF7A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>turkey.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3F555E41B0FA4A00017AF7A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3F555E31B0FA4A00017AF7A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FDE9155F7D59B4FA48EBD80C</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>A3691D221B0D4EE100EAB92E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A30D09ED1B0E2B8400F4464C /* Facebook-128.png in Resources */ = {isa = PBXBuildFile; fileRef = A30D09EC1B0E2B8400F4464C /* Facebook-128.png */; };
+		A30D09EF1B0E2B9A00F4464C /* Twitter-Bird-128.png in Resources */ = {isa = PBXBuildFile; fileRef = A30D09EE1B0E2B9A00F4464C /* Twitter-Bird-128.png */; };
+		A311A7EC1B0DC17F00C66080 /* CountryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A311A7EB1B0DC17F00C66080 /* CountryDetailViewController.swift */; };
+		A311A7EE1B0E1B3000C66080 /* mountains.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A311A7ED1B0E1B3000C66080 /* mountains.jpeg */; };
+		A32B524E1B1114F4002C93F9 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32B52491B1114D4002C93F9 /* pop.framework */; };
+		A32B524F1B1114F4002C93F9 /* pop.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A32B52491B1114D4002C93F9 /* pop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A32B52B61B125959002C93F9 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32B52B51B125959002C93F9 /* InterfaceController.swift */; };
+		A32B52B81B125959002C93F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32B52B71B125959002C93F9 /* Images.xcassets */; };
+		A32B52BC1B125959002C93F9 /* KnowTip WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = A32B52BB1B125959002C93F9 /* KnowTip WatchKit App.app */; };
+		A32B52C41B125959002C93F9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32B52C21B125959002C93F9 /* Interface.storyboard */; };
+		A32B52C61B125959002C93F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32B52C51B125959002C93F9 /* Images.xcassets */; };
+		A32B52C91B125959002C93F9 /* KnowTip WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A32B52B11B125959002C93F9 /* KnowTip WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A32B52D11B125C94002C93F9 /* CountryTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32B52D01B125C94002C93F9 /* CountryTableRowController.swift */; };
+		A32B52D31B126018002C93F9 /* CountryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32B52D21B126018002C93F9 /* CountryDataSource.swift */; };
+		A32B52D41B126094002C93F9 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33987661B0FD77E00A506B2 /* Country.swift */; };
+		A32B52D51B126097002C93F9 /* CountryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32B52D21B126018002C93F9 /* CountryDataSource.swift */; };
+		A32B52D71B126226002C93F9 /* CountryDetailsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32B52D61B126226002C93F9 /* CountryDetailsInterfaceController.swift */; };
+		A32B52DA1B12660E002C93F9 /* CountryDetailsTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32B52D81B126573002C93F9 /* CountryDetailsTableRowController.swift */; };
+		A33288E51B1273B10065AF78 /* work.png in Resources */ = {isa = PBXBuildFile; fileRef = A378738A1B1271E40011D36A /* work.png */; };
+		A33987671B0FD77E00A506B2 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33987661B0FD77E00A506B2 /* Country.swift */; };
+		A349A2221B0E6EFD009833C8 /* jar.png in Resources */ = {isa = PBXBuildFile; fileRef = A349A2211B0E6EFD009833C8 /* jar.png */; };
+		A3691D301B0D4EE100EAB92E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3691D2F1B0D4EE100EAB92E /* AppDelegate.swift */; };
+		A3691D321B0D4EE100EAB92E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3691D311B0D4EE100EAB92E /* ViewController.swift */; };
+		A3691D351B0D4EE100EAB92E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3691D331B0D4EE100EAB92E /* Main.storyboard */; };
+		A3691D371B0D4EE100EAB92E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3691D361B0D4EE100EAB92E /* Images.xcassets */; };
+		A3691D3A1B0D4EE100EAB92E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3691D381B0D4EE100EAB92E /* LaunchScreen.xib */; };
+		A3691D461B0D4EE200EAB92E /* KnowTipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3691D451B0D4EE200EAB92E /* KnowTipTests.swift */; };
+		A378738B1B1271E40011D36A /* work.png in Resources */ = {isa = PBXBuildFile; fileRef = A378738A1B1271E40011D36A /* work.png */; };
+		A37873901B1271E70011D36A /* work.png in Resources */ = {isa = PBXBuildFile; fileRef = A378738A1B1271E40011D36A /* work.png */; };
+		A3C585FE1B0E384100173685 /* canada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3C585FD1B0E384100173685 /* canada.jpg */; };
+		A3C586001B0E387000173685 /* unitedstates.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3C585FF1B0E387000173685 /* unitedstates.jpg */; };
+		A3C586021B0E388200173685 /* vietnam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3C586011B0E388200173685 /* vietnam.jpg */; };
+		A3C586061B0E38BB00173685 /* taiwan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3C586051B0E38BB00173685 /* taiwan.jpg */; };
+		A3C586081B0E38CB00173685 /* argentina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3C586071B0E38CB00173685 /* argentina.jpg */; };
+		A3C5860A1B0E38DD00173685 /* china.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3C586091B0E38DD00173685 /* china.jpg */; };
+		A3C5860C1B0E3A6A00173685 /* france.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3C5860B1B0E3A6A00173685 /* france.jpg */; };
+		A3C5860E1B0E3A8E00173685 /* germany.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3C5860D1B0E3A8E00173685 /* germany.jpg */; };
+		A3C8A0D51B0E4E360088F194 /* pakistan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3C8A0D41B0E4E360088F194 /* pakistan.jpg */; };
+		A3F555E41B0FA4A00017AF7A /* turkey.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F555E31B0FA4A00017AF7A /* turkey.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A32B52441B1114D4002C93F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32B523C1B1114D3002C93F9 /* pop.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC191218162FB53A00E0CC76;
+			remoteInfo = pop;
+		};
+		A32B52461B1114D4002C93F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32B523C1B1114D3002C93F9 /* pop.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC68857F18C7B60000C6194C;
+			remoteInfo = "pop-osx";
+		};
+		A32B52481B1114D4002C93F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32B523C1B1114D3002C93F9 /* pop.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0B6BE74819FFD3B900762101;
+			remoteInfo = "pop-embedded";
+		};
+		A32B524A1B1114D4002C93F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32B523C1B1114D3002C93F9 /* pop.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECF01ED318C92B7F009E0AD1;
+			remoteInfo = "pop-tests";
+		};
+		A32B524C1B1114D4002C93F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32B523C1B1114D3002C93F9 /* pop.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC7E319918C93D6500B38170;
+			remoteInfo = "pop-tests-osx";
+		};
+		A32B52501B1114F4002C93F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32B523C1B1114D3002C93F9 /* pop.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B6BE74719FFD3B900762101;
+			remoteInfo = "pop-embedded";
+		};
+		A32B52BD1B125959002C93F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3691D221B0D4EE100EAB92E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32B52BA1B125959002C93F9;
+			remoteInfo = "KnowTip WatchKit App";
+		};
+		A32B52C71B125959002C93F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3691D221B0D4EE100EAB92E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32B52B01B125959002C93F9;
+			remoteInfo = "KnowTip WatchKit Extension";
+		};
+		A3691D401B0D4EE200EAB92E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3691D221B0D4EE100EAB92E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3691D291B0D4EE100EAB92E;
+			remoteInfo = KnowTip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A32B51EC1B11132B002C93F9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A32B524F1B1114F4002C93F9 /* pop.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32B52881B12590D002C93F9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A32B52C91B125959002C93F9 /* KnowTip WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A30D09EC1B0E2B8400F4464C /* Facebook-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facebook-128.png"; sourceTree = "<group>"; };
+		A30D09EE1B0E2B9A00F4464C /* Twitter-Bird-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitter-Bird-128.png"; sourceTree = "<group>"; };
+		A311A7EB1B0DC17F00C66080 /* CountryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDetailViewController.swift; sourceTree = "<group>"; };
+		A311A7ED1B0E1B3000C66080 /* mountains.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mountains.jpeg; sourceTree = "<group>"; };
+		A32B523C1B1114D3002C93F9 /* pop.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = pop.xcodeproj; path = "../../Downloads/pop-master 3/pop.xcodeproj"; sourceTree = "<group>"; };
+		A32B52B11B125959002C93F9 /* KnowTip WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "KnowTip WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32B52B41B125959002C93F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32B52B51B125959002C93F9 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A32B52B71B125959002C93F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A32B52BB1B125959002C93F9 /* KnowTip WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KnowTip WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32B52C11B125959002C93F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32B52C31B125959002C93F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A32B52C51B125959002C93F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A32B52D01B125C94002C93F9 /* CountryTableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTableRowController.swift; sourceTree = "<group>"; };
+		A32B52D21B126018002C93F9 /* CountryDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDataSource.swift; sourceTree = "<group>"; };
+		A32B52D61B126226002C93F9 /* CountryDetailsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDetailsInterfaceController.swift; sourceTree = "<group>"; };
+		A32B52D81B126573002C93F9 /* CountryDetailsTableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDetailsTableRowController.swift; sourceTree = "<group>"; };
+		A33987661B0FD77E00A506B2 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		A349A2211B0E6EFD009833C8 /* jar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jar.png; sourceTree = "<group>"; };
+		A3691D2A1B0D4EE100EAB92E /* KnowTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnowTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3691D2E1B0D4EE100EAB92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3691D2F1B0D4EE100EAB92E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3691D311B0D4EE100EAB92E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3691D341B0D4EE100EAB92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3691D361B0D4EE100EAB92E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A3691D391B0D4EE100EAB92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A3691D3F1B0D4EE200EAB92E /* KnowTipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnowTipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3691D441B0D4EE200EAB92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3691D451B0D4EE200EAB92E /* KnowTipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowTipTests.swift; sourceTree = "<group>"; };
+		A378738A1B1271E40011D36A /* work.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = work.png; path = ../../../Desktop/work.png; sourceTree = "<group>"; };
+		A3C585FD1B0E384100173685 /* canada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = canada.jpg; sourceTree = "<group>"; };
+		A3C585FF1B0E387000173685 /* unitedstates.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unitedstates.jpg; sourceTree = "<group>"; };
+		A3C586011B0E388200173685 /* vietnam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vietnam.jpg; sourceTree = "<group>"; };
+		A3C586051B0E38BB00173685 /* taiwan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taiwan.jpg; sourceTree = "<group>"; };
+		A3C586071B0E38CB00173685 /* argentina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = argentina.jpg; sourceTree = "<group>"; };
+		A3C586091B0E38DD00173685 /* china.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = china.jpg; sourceTree = "<group>"; };
+		A3C5860B1B0E3A6A00173685 /* france.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = france.jpg; sourceTree = "<group>"; };
+		A3C5860D1B0E3A8E00173685 /* germany.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = germany.jpg; sourceTree = "<group>"; };
+		A3C8A0D41B0E4E360088F194 /* pakistan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pakistan.jpg; sourceTree = "<group>"; };
+		A3F555E31B0FA4A00017AF7A /* turkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turkey.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A32B52AE1B125959002C93F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3691D271B0D4EE100EAB92E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32B524E1B1114F4002C93F9 /* pop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3691D3C1B0D4EE200EAB92E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A30D09F01B0E2F6600F4464C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A378738A1B1271E40011D36A /* work.png */,
+				A349A2211B0E6EFD009833C8 /* jar.png */,
+				A3C8A0D41B0E4E360088F194 /* pakistan.jpg */,
+				A3C5860D1B0E3A8E00173685 /* germany.jpg */,
+				A3C5860B1B0E3A6A00173685 /* france.jpg */,
+				A3C586091B0E38DD00173685 /* china.jpg */,
+				A3C586071B0E38CB00173685 /* argentina.jpg */,
+				A3C586051B0E38BB00173685 /* taiwan.jpg */,
+				A3C585FF1B0E387000173685 /* unitedstates.jpg */,
+				A3C586011B0E388200173685 /* vietnam.jpg */,
+				A3C585FD1B0E384100173685 /* canada.jpg */,
+				A3F555E31B0FA4A00017AF7A /* turkey.png */,
+				A311A7ED1B0E1B3000C66080 /* mountains.jpeg */,
+				A30D09EE1B0E2B9A00F4464C /* Twitter-Bird-128.png */,
+				A30D09EC1B0E2B8400F4464C /* Facebook-128.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A32B523D1B1114D3002C93F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A32B52451B1114D4002C93F9 /* libpop.a */,
+				A32B52471B1114D4002C93F9 /* pop.framework */,
+				A32B52491B1114D4002C93F9 /* pop.framework */,
+				A32B524B1B1114D4002C93F9 /* pop-tests.xctest */,
+				A32B524D1B1114D4002C93F9 /* pop-tests-osx.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A32B52B21B125959002C93F9 /* KnowTip WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A32B52D01B125C94002C93F9 /* CountryTableRowController.swift */,
+				A32B52D81B126573002C93F9 /* CountryDetailsTableRowController.swift */,
+				A32B52B51B125959002C93F9 /* InterfaceController.swift */,
+				A32B52D61B126226002C93F9 /* CountryDetailsInterfaceController.swift */,
+				A32B52B71B125959002C93F9 /* Images.xcassets */,
+				A32B52B31B125959002C93F9 /* Supporting Files */,
+			);
+			path = "KnowTip WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A32B52B31B125959002C93F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A32B52B41B125959002C93F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A32B52BF1B125959002C93F9 /* KnowTip WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A32B52C21B125959002C93F9 /* Interface.storyboard */,
+				A32B52C51B125959002C93F9 /* Images.xcassets */,
+				A32B52C01B125959002C93F9 /* Supporting Files */,
+			);
+			path = "KnowTip WatchKit App";
+			sourceTree = "<group>";
+		};
+		A32B52C01B125959002C93F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A32B52C11B125959002C93F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3691D211B0D4EE100EAB92E = {
+			isa = PBXGroup;
+			children = (
+				A32B523C1B1114D3002C93F9 /* pop.xcodeproj */,
+				A30D09F01B0E2F6600F4464C /* Images */,
+				A3691D2C1B0D4EE100EAB92E /* KnowTip */,
+				A3691D421B0D4EE200EAB92E /* KnowTipTests */,
+				A32B52B21B125959002C93F9 /* KnowTip WatchKit Extension */,
+				A32B52BF1B125959002C93F9 /* KnowTip WatchKit App */,
+				A3691D2B1B0D4EE100EAB92E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3691D2B1B0D4EE100EAB92E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3691D2A1B0D4EE100EAB92E /* KnowTip.app */,
+				A3691D3F1B0D4EE200EAB92E /* KnowTipTests.xctest */,
+				A32B52B11B125959002C93F9 /* KnowTip WatchKit Extension.appex */,
+				A32B52BB1B125959002C93F9 /* KnowTip WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3691D2C1B0D4EE100EAB92E /* KnowTip */ = {
+			isa = PBXGroup;
+			children = (
+				A3691D311B0D4EE100EAB92E /* ViewController.swift */,
+				A33987661B0FD77E00A506B2 /* Country.swift */,
+				A32B52D21B126018002C93F9 /* CountryDataSource.swift */,
+				A3691D2F1B0D4EE100EAB92E /* AppDelegate.swift */,
+				A3691D331B0D4EE100EAB92E /* Main.storyboard */,
+				A311A7EB1B0DC17F00C66080 /* CountryDetailViewController.swift */,
+				A3691D361B0D4EE100EAB92E /* Images.xcassets */,
+				A3691D381B0D4EE100EAB92E /* LaunchScreen.xib */,
+				A3691D2D1B0D4EE100EAB92E /* Supporting Files */,
+			);
+			path = KnowTip;
+			sourceTree = "<group>";
+		};
+		A3691D2D1B0D4EE100EAB92E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3691D2E1B0D4EE100EAB92E /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3691D421B0D4EE200EAB92E /* KnowTipTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3691D451B0D4EE200EAB92E /* KnowTipTests.swift */,
+				A3691D431B0D4EE200EAB92E /* Supporting Files */,
+			);
+			path = KnowTipTests;
+			sourceTree = "<group>";
+		};
+		A3691D431B0D4EE200EAB92E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3691D441B0D4EE200EAB92E /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A32B52B01B125959002C93F9 /* KnowTip WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32B52CD1B125959002C93F9 /* Build configuration list for PBXNativeTarget "KnowTip WatchKit Extension" */;
+			buildPhases = (
+				A32B52AD1B125959002C93F9 /* Sources */,
+				A32B52AE1B125959002C93F9 /* Frameworks */,
+				A32B52AF1B125959002C93F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A32B52BE1B125959002C93F9 /* PBXTargetDependency */,
+			);
+			name = "KnowTip WatchKit Extension";
+			productName = "KnowTip WatchKit Extension";
+			productReference = A32B52B11B125959002C93F9 /* KnowTip WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		A32B52BA1B125959002C93F9 /* KnowTip WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32B52CA1B125959002C93F9 /* Build configuration list for PBXNativeTarget "KnowTip WatchKit App" */;
+			buildPhases = (
+				A32B52B91B125959002C93F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KnowTip WatchKit App";
+			productName = "KnowTip WatchKit App";
+			productReference = A32B52BB1B125959002C93F9 /* KnowTip WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		A3691D291B0D4EE100EAB92E /* KnowTip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3691D491B0D4EE200EAB92E /* Build configuration list for PBXNativeTarget "KnowTip" */;
+			buildPhases = (
+				A3691D261B0D4EE100EAB92E /* Sources */,
+				A3691D271B0D4EE100EAB92E /* Frameworks */,
+				A3691D281B0D4EE100EAB92E /* Resources */,
+				A32B51EC1B11132B002C93F9 /* Embed Frameworks */,
+				A32B52881B12590D002C93F9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A32B52511B1114F4002C93F9 /* PBXTargetDependency */,
+				A32B52C81B125959002C93F9 /* PBXTargetDependency */,
+			);
+			name = KnowTip;
+			productName = KnowTip;
+			productReference = A3691D2A1B0D4EE100EAB92E /* KnowTip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3691D3E1B0D4EE200EAB92E /* KnowTipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3691D4C1B0D4EE200EAB92E /* Build configuration list for PBXNativeTarget "KnowTipTests" */;
+			buildPhases = (
+				A3691D3B1B0D4EE200EAB92E /* Sources */,
+				A3691D3C1B0D4EE200EAB92E /* Frameworks */,
+				A3691D3D1B0D4EE200EAB92E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3691D411B0D4EE200EAB92E /* PBXTargetDependency */,
+			);
+			name = KnowTipTests;
+			productName = KnowTipTests;
+			productReference = A3691D3F1B0D4EE200EAB92E /* KnowTipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3691D221B0D4EE100EAB92E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jason Yu";
+				TargetAttributes = {
+					A32B52B01B125959002C93F9 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = QK25HEAP6B;
+					};
+					A32B52BA1B125959002C93F9 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = QK25HEAP6B;
+					};
+					A3691D291B0D4EE100EAB92E = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = QK25HEAP6B;
+					};
+					A3691D3E1B0D4EE200EAB92E = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A3691D291B0D4EE100EAB92E;
+					};
+				};
+			};
+			buildConfigurationList = A3691D251B0D4EE100EAB92E /* Build configuration list for PBXProject "KnowTip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3691D211B0D4EE100EAB92E;
+			productRefGroup = A3691D2B1B0D4EE100EAB92E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A32B523D1B1114D3002C93F9 /* Products */;
+					ProjectRef = A32B523C1B1114D3002C93F9 /* pop.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A3691D291B0D4EE100EAB92E /* KnowTip */,
+				A3691D3E1B0D4EE200EAB92E /* KnowTipTests */,
+				A32B52B01B125959002C93F9 /* KnowTip WatchKit Extension */,
+				A32B52BA1B125959002C93F9 /* KnowTip WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A32B52451B1114D4002C93F9 /* libpop.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libpop.a;
+			remoteRef = A32B52441B1114D4002C93F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A32B52471B1114D4002C93F9 /* pop.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = pop.framework;
+			remoteRef = A32B52461B1114D4002C93F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A32B52491B1114D4002C93F9 /* pop.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = pop.framework;
+			remoteRef = A32B52481B1114D4002C93F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A32B524B1B1114D4002C93F9 /* pop-tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "pop-tests.xctest";
+			remoteRef = A32B524A1B1114D4002C93F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A32B524D1B1114D4002C93F9 /* pop-tests-osx.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "pop-tests-osx.xctest";
+			remoteRef = A32B524C1B1114D4002C93F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A32B52AF1B125959002C93F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32B52B81B125959002C93F9 /* Images.xcassets in Resources */,
+				A32B52BC1B125959002C93F9 /* KnowTip WatchKit App.app in Resources */,
+				A37873901B1271E70011D36A /* work.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32B52B91B125959002C93F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32B52C41B125959002C93F9 /* Interface.storyboard in Resources */,
+				A32B52C61B125959002C93F9 /* Images.xcassets in Resources */,
+				A33288E51B1273B10065AF78 /* work.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3691D281B0D4EE100EAB92E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C586021B0E388200173685 /* vietnam.jpg in Resources */,
+				A3C586081B0E38CB00173685 /* argentina.jpg in Resources */,
+				A378738B1B1271E40011D36A /* work.png in Resources */,
+				A3C5860C1B0E3A6A00173685 /* france.jpg in Resources */,
+				A349A2221B0E6EFD009833C8 /* jar.png in Resources */,
+				A3C586001B0E387000173685 /* unitedstates.jpg in Resources */,
+				A3C5860A1B0E38DD00173685 /* china.jpg in Resources */,
+				A311A7EE1B0E1B3000C66080 /* mountains.jpeg in Resources */,
+				A3C8A0D51B0E4E360088F194 /* pakistan.jpg in Resources */,
+				A3C585FE1B0E384100173685 /* canada.jpg in Resources */,
+				A30D09ED1B0E2B8400F4464C /* Facebook-128.png in Resources */,
+				A3F555E41B0FA4A00017AF7A /* turkey.png in Resources */,
+				A3691D351B0D4EE100EAB92E /* Main.storyboard in Resources */,
+				A3C586061B0E38BB00173685 /* taiwan.jpg in Resources */,
+				A3691D3A1B0D4EE100EAB92E /* LaunchScreen.xib in Resources */,
+				A3691D371B0D4EE100EAB92E /* Images.xcassets in Resources */,
+				A30D09EF1B0E2B9A00F4464C /* Twitter-Bird-128.png in Resources */,
+				A3C5860E1B0E3A8E00173685 /* germany.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3691D3D1B0D4EE200EAB92E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A32B52AD1B125959002C93F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32B52D71B126226002C93F9 /* CountryDetailsInterfaceController.swift in Sources */,
+				A32B52DA1B12660E002C93F9 /* CountryDetailsTableRowController.swift in Sources */,
+				A32B52D11B125C94002C93F9 /* CountryTableRowController.swift in Sources */,
+				A32B52D51B126097002C93F9 /* CountryDataSource.swift in Sources */,
+				A32B52D41B126094002C93F9 /* Country.swift in Sources */,
+				A32B52B61B125959002C93F9 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3691D261B0D4EE100EAB92E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33987671B0FD77E00A506B2 /* Country.swift in Sources */,
+				A3691D321B0D4EE100EAB92E /* ViewController.swift in Sources */,
+				A3691D301B0D4EE100EAB92E /* AppDelegate.swift in Sources */,
+				A311A7EC1B0DC17F00C66080 /* CountryDetailViewController.swift in Sources */,
+				A32B52D31B126018002C93F9 /* CountryDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3691D3B1B0D4EE200EAB92E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3691D461B0D4EE200EAB92E /* KnowTipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A32B52511B1114F4002C93F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "pop-embedded";
+			targetProxy = A32B52501B1114F4002C93F9 /* PBXContainerItemProxy */;
+		};
+		A32B52BE1B125959002C93F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32B52BA1B125959002C93F9 /* KnowTip WatchKit App */;
+			targetProxy = A32B52BD1B125959002C93F9 /* PBXContainerItemProxy */;
+		};
+		A32B52C81B125959002C93F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32B52B01B125959002C93F9 /* KnowTip WatchKit Extension */;
+			targetProxy = A32B52C71B125959002C93F9 /* PBXContainerItemProxy */;
+		};
+		A3691D411B0D4EE200EAB92E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3691D291B0D4EE100EAB92E /* KnowTip */;
+			targetProxy = A3691D401B0D4EE200EAB92E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A32B52C21B125959002C93F9 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A32B52C31B125959002C93F9 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		A3691D331B0D4EE100EAB92E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3691D341B0D4EE100EAB92E /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		A3691D381B0D4EE100EAB92E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3691D391B0D4EE100EAB92E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A32B52CB1B125959002C93F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = KnowTip_WatchKit_Extension;
+				INFOPLIST_FILE = "KnowTip WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		A32B52CC1B125959002C93F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = KnowTip_WatchKit_Extension;
+				INFOPLIST_FILE = "KnowTip WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		A32B52CE1B125959002C93F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KnowTip WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A32B52CF1B125959002C93F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "KnowTip WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A3691D471B0D4EE200EAB92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lc++";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3691D481B0D4EE200EAB92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lc++";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3691D4A1B0D4EE200EAB92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/KnowTip-ebwgmfhfksvzcyfcorlsbarynpxq/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "KnowTip/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Debug;
+		};
+		A3691D4B1B0D4EE200EAB92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/KnowTip-ebwgmfhfksvzcyfcorlsbarynpxq/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "KnowTip/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		A3691D4D1B0D4EE200EAB92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KnowTipTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KnowTip.app/KnowTip";
+			};
+			name = Debug;
+		};
+		A3691D4E1B0D4EE200EAB92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KnowTipTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KnowTip.app/KnowTip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A32B52CA1B125959002C93F9 /* Build configuration list for PBXNativeTarget "KnowTip WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32B52CB1B125959002C93F9 /* Debug */,
+				A32B52CC1B125959002C93F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32B52CD1B125959002C93F9 /* Build configuration list for PBXNativeTarget "KnowTip WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32B52CE1B125959002C93F9 /* Debug */,
+				A32B52CF1B125959002C93F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3691D251B0D4EE100EAB92E /* Build configuration list for PBXProject "KnowTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3691D471B0D4EE200EAB92E /* Debug */,
+				A3691D481B0D4EE200EAB92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3691D491B0D4EE200EAB92E /* Build configuration list for PBXNativeTarget "KnowTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3691D4A1B0D4EE200EAB92E /* Debug */,
+				A3691D4B1B0D4EE200EAB92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3691D4C1B0D4EE200EAB92E /* Build configuration list for PBXNativeTarget "KnowTipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3691D4D1B0D4EE200EAB92E /* Debug */,
+				A3691D4E1B0D4EE200EAB92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3691D221B0D4EE100EAB92E /* Project object */;
+}

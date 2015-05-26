@@ -4,14 +4,39 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>KnowTip WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>KnowTip.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Notification - KnowTip WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>A32B526E1B12590D002C93F9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A32B52971B12593D002C93F9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A32B52BA1B125959002C93F9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A3691D291B0D4EE100EAB92E</key>
 		<dict>
 			<key>primary</key>

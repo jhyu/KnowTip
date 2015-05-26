@@ -8,7 +8,7 @@
 
 import UIKit
 import Social
-//import pop
+import pop
 
 class CountryDetailViewController: UIViewController {
     
@@ -37,9 +37,11 @@ class CountryDetailViewController: UIViewController {
         let oneAction = UIAlertAction(title: "Contact us", style: .Default) { (_) in
             //Amplitude.logEvent("Contact KnowTip")
             
-            let email = "jason@jasonyu.co"
-            let url = NSURL(string: "mailto:\(email)?subject=KnowTip:%20An%20edit%20request%20for%20\(self.country!)&")
-            UIApplication.sharedApplication().openURL(url!)
+            let toEmail = "jason@jasonyu.co"
+            let subject = "KnowTip: Edit request for \(self.country!)"
+            var email = "mailto:\(toEmail)?subject=\(subject)"
+            email = email.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)!
+            UIApplication.sharedApplication().openURL(NSURL(string: email)!)
         }
         
         let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel) { (_) in }
@@ -127,28 +129,28 @@ class CountryDetailViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(true)
-        /*
+        
         let spring = POPSpringAnimation(propertyNamed: kPOPLayerPositionY)
         spring.toValue = self.view.frame.size.height - 40
         spring.springBounciness = 10 // a float between 0 and 20
         spring.springSpeed = 15
-*/
+
         
-       // self.shareFacebook.pop_addAnimation(spring, forKey: "fadeFB")
-        //self.shareTwitter.pop_addAnimation(spring, forKey: "fadeTwitter")
+        self.shareFacebook.pop_addAnimation(spring, forKey: "fadeFB")
+        self.shareTwitter.pop_addAnimation(spring, forKey: "fadeTwitter")
         
         //let anim = POPBasicAnimation(propertyNamed: kCAMediaTimingFunctionEaseInEaseOut)
         //anim.fromValue = 0.0
         //anim.toValue = 1.0
-        /*
+        
+        
         let anim = POPSpringAnimation(propertyNamed: kPOPLayerPositionY)
         anim.fromValue = -50
         anim.toValue = 75
         anim.springBounciness = 10 // a float between 0 and 20
         anim.springSpeed = 15
-*/
-      
-       // self.countryLabel.pop_addAnimation(anim, forKey: "fade")
+        self.countryLabel.text = "\(country!)"
+        self.countryLabel.pop_addAnimation(anim, forKey: "fade")
         
     }
     
@@ -180,7 +182,6 @@ class CountryDetailViewController: UIViewController {
 
         self.shareFacebook.setBackgroundImage(UIImage(named:"Facebook-128.png"), forState: UIControlState.Normal)
         self.shareTwitter.setBackgroundImage(UIImage(named:"Twitter-Bird-128.png"), forState: UIControlState.Normal)
-        self.countryLabel.text = "\(country!)"
         print("the country image is \(countryImage!)")
         //self.backButton.setTitle("\(country!)", forState: UIControlState.Normal)
         // Do any additional setup after loading the view.
@@ -195,9 +196,9 @@ class CountryDetailViewController: UIViewController {
         UIApplication.sharedApplication().statusBarStyle = .Default
 
         self.dismissViewControllerAnimated(true, completion: {});
-        //self.shareTwitter.pop_removeAnimationForKey("fadeFB")
-        //self.shareTwitter.pop_removeAnimationForKey("fadeTwitter")
-        //self.countryLabel.pop_removeAnimationForKey("fade")
+        self.shareTwitter.pop_removeAnimationForKey("fadeFB")
+        self.shareTwitter.pop_removeAnimationForKey("fadeTwitter")
+        self.countryLabel.pop_removeAnimationForKey("fade")
 
     }
 

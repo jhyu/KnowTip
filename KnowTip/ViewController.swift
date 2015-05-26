@@ -8,21 +8,45 @@
 
 import UIKit
 import QuartzCore
-//import pop
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     var sortedCountries = [String]()
-    var selectedCountry : NSString? = ""
-    var allCountries = [Country]()
-
+    var selectedCountry : NSString? = "" //user selected country
+    var allCountries = [Country]() // array of Country objects
     
+    let countryRequest = "http://127.0.0.1:5000/api/country"
+
+    // country list
     let countries = ["Argentina", "Australia", "Austria", "Bahamas", "Belgium", "Brazil", "Brunei", "Bulgaria", "Canada", "Cayman Islands", "Chile", "China", "Colombia", "Costa Rica", "Denmark", "Ecuador", "Egypt", "Estonia", "Fiji", "Finland", "France", "Germany", "Greece", "Hong Kong", "Hungary", "India", "Indonesia", "Ireland", "Israel", "Italy", "Japan", "Malaysia", "Mexico", "Morocco", "Netherlands", "New Zealand", "Norway", "Oman", "Peru", "Philippines", "Poland", "Portugal", "Romania", "Russia", "Samoa", "Saudi Arabia", "Singapore", "South Africa", "South Korea", "Spain", "Switzerland", "Taiwan", "Tanzania", "Thailand", "Turkey", "United Arab Emirates", "United Kingdom", "United States", "Venezuela", "Vietnam"]
     
+    // MARK: - view events
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        /*
+        //test SwiftHTTP
+        var request = HTTPTask()
+        let array = ["filters":[["name":"name","op":"like","val":"%United%"]]]
+        let data = NSJSONSerialization.dataWithJSONObject(array, options: nil, error: nil)
+        let query = NSString(data: data!, encoding: NSUTF8StringEncoding)!
+        println(query)
+        request.GET(countryRequest, parameters: ["q":query], completionHandler: {(response: HTTPResponse) in
+            if let err = response.error {
+                println("error: \(err.localizedDescription)")
+                return //also notify app of failure as needed
+            }
+            if let data = response.responseObject as? NSData {
+                var error: NSError?
+                let JSONObject: AnyObject? = NSJSONSerialization.JSONObjectWithData(data, options: nil, error: nil)
+                let json = JSON(JSONObject!)
+                println(json)
+                let dictionary = json["objects"][0]["id"]
+                print(dictionary)
+            }
+        })*/
         
         self.navigationController!.navigationBar.topItem!.title = "Select a country";
         
@@ -47,8 +71,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         gradient.colors = arrayColors
         self.tableView.layer.insertSublayer(gradient, atIndex: 0)
-        self.tableView.backgroundColor =  UIColor(red: 215/256.0, green: 0/256.0, blue: 96/256.0, alpha: 1.0)
-
+        
+        self.tableView.backgroundColor = UIColor.groupTableViewBackgroundColor()
         /*
         RestApiManager.sharedInstance.getRandomUser { json in
             let results = json["results"]
@@ -59,6 +83,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             }
         }*/
     }
+    
+    // MARK: - info alert view method
     
     func infoAction() {
         
@@ -107,9 +133,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
     }
     
-    override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(true)
-    }
+    // MARK: - device rotation methods
     
     override func shouldAutorotate() -> Bool {
         if (UIDevice.currentDevice().orientation == UIDeviceOrientation.LandscapeLeft ||
@@ -138,6 +162,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return headerCell
     }*/
     
+    // MARK: - table view methods
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
@@ -174,6 +199,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     }
     
+    // MARK: - prepare for segue methods
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier == "showCountry") {
             let viewController:CountryDetailViewController = segue.destinationViewController as! CountryDetailViewController
@@ -194,6 +221,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
     }
 
+    // MARK - memory warning
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

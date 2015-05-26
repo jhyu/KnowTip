@@ -230,7 +230,7 @@
                             <constraint firstItem="H8e-db-kBd" firstAttribute="leading" secondItem="bF3-ix-OcE" secondAttribute="trailing" constant="-369" id="Dw3-jr-Yu3"/>
                             <constraint firstItem="bMH-rP-GxF" firstAttribute="leading" secondItem="RhG-FT-TPS" secondAttribute="leadingMargin" id="FEo-UT-9pS"/>
                             <constraint firstItem="nv2-Y5-FHv" firstAttribute="trailing" secondItem="RhG-FT-TPS" secondAttribute="trailingMargin" id="HYv-zl-MpB"/>
-                            <constraint firstItem="mWV-er-v6I" firstAttribute="top" secondItem="qco-Gt-YLK" secondAttribute="bottom" constant="20" id="HkE-5z-ql2"/>
+                            <constraint firstItem="mWV-er-v6I" firstAttribute="top" secondItem="qco-Gt-YLK" secondAttribute="bottom" constant="-60" id="HkE-5z-ql2"/>
                             <constraint firstItem="nLZ-My-RfN" firstAttribute="trailing" secondItem="RhG-FT-TPS" secondAttribute="trailingMargin" id="Jcv-jI-oGh"/>
                             <constraint firstItem="aN1-jY-OiH" firstAttribute="top" relation="greaterThanOrEqual" secondItem="BPo-X6-orB" secondAttribute="bottom" constant="5" id="JsO-2z-HDx"/>
                             <constraint firstItem="bF3-ix-OcE" firstAttribute="top" secondItem="H8e-db-kBd" secondAttribute="bottom" constant="-94" id="Ket-d7-kP3"/>
@@ -247,6 +247,7 @@
                             <constraint firstItem="aN1-jY-OiH" firstAttribute="trailing" secondItem="RhG-FT-TPS" secondAttribute="trailingMargin" id="QvM-jP-e6g"/>
                             <constraint firstItem="nv2-Y5-FHv" firstAttribute="top" relation="greaterThanOrEqual" secondItem="aN1-jY-OiH" secondAttribute="bottom" constant="50" id="RaK-XI-D7B"/>
                             <constraint firstItem="bF3-ix-OcE" firstAttribute="top" secondItem="RhG-FT-TPS" secondAttribute="top" id="Rhd-bQ-rzC"/>
+                            <constraint firstItem="H8e-db-kBd" firstAttribute="top" secondItem="xu4-bK-9x8" secondAttribute="bottom" constant="-50" id="T1r-2I-AcQ"/>
                             <constraint firstItem="H8e-db-kBd" firstAttribute="top" secondItem="xu4-bK-9x8" secondAttribute="bottom" constant="75" id="U32-je-Jrx"/>
                             <constraint firstItem="mWV-er-v6I" firstAttribute="top" relation="greaterThanOrEqual" secondItem="if4-5N-XQa" secondAttribute="bottom" constant="50" id="Uuw-Tt-OpE"/>
                             <constraint firstItem="TXh-hQ-LQ2" firstAttribute="top" secondItem="bF3-ix-OcE" secondAttribute="bottom" constant="10" id="W1z-pL-TR7"/>
@@ -263,20 +264,22 @@
                             <constraint firstItem="sw9-NY-WAJ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="aN1-jY-OiH" secondAttribute="bottom" constant="5" id="kzB-V2-jbJ"/>
                             <constraint firstItem="sw9-NY-WAJ" firstAttribute="top" secondItem="aN1-jY-OiH" secondAttribute="bottom" id="mix-an-2fY"/>
                             <constraint firstItem="bF3-ix-OcE" firstAttribute="centerY" secondItem="H8e-db-kBd" secondAttribute="centerY" constant="-50" id="mzO-9E-kU5"/>
-                            <constraint firstItem="bF3-ix-OcE" firstAttribute="centerY" secondItem="H8e-db-kBd" secondAttribute="centerY" constant="7" id="nEb-MX-N4N"/>
+                            <constraint firstItem="bF3-ix-OcE" firstAttribute="centerY" secondItem="H8e-db-kBd" secondAttribute="centerY" constant="-40" id="nEb-MX-N4N"/>
                             <constraint firstItem="nLZ-My-RfN" firstAttribute="leading" secondItem="RhG-FT-TPS" secondAttribute="leadingMargin" id="oSn-hS-xLT"/>
                             <constraint firstItem="sw9-NY-WAJ" firstAttribute="centerY" secondItem="nv2-Y5-FHv" secondAttribute="centerY" id="pJS-cZ-eBe"/>
                             <constraint firstAttribute="centerX" secondItem="H8e-db-kBd" secondAttribute="centerX" id="qU0-W9-gq3"/>
-                            <constraint firstItem="mWV-er-v6I" firstAttribute="top" secondItem="e68-rf-rNC" secondAttribute="bottom" constant="20" id="rBl-hz-My2"/>
+                            <constraint firstItem="mWV-er-v6I" firstAttribute="top" secondItem="e68-rf-rNC" secondAttribute="bottom" constant="-60" id="rBl-hz-My2"/>
                             <constraint firstItem="nLZ-My-RfN" firstAttribute="top" secondItem="if4-5N-XQa" secondAttribute="bottom" id="s02-Dt-DeN"/>
                             <constraint firstItem="mWV-er-v6I" firstAttribute="top" relation="greaterThanOrEqual" secondItem="nLZ-My-RfN" secondAttribute="bottom" constant="50" id="tYt-lU-nom"/>
                             <constraint firstItem="aN1-jY-OiH" firstAttribute="leading" secondItem="BPo-X6-orB" secondAttribute="trailing" constant="10" id="trs-hf-h3f"/>
+                            <constraint firstItem="H8e-db-kBd" firstAttribute="top" secondItem="xu4-bK-9x8" secondAttribute="bottom" constant="60" id="z8f-SM-58U"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="5ZO-go-kzt"/>
                                 <exclude reference="Ket-d7-kP3"/>
                                 <exclude reference="mzO-9E-kU5"/>
+                                <exclude reference="nEb-MX-N4N"/>
                                 <exclude reference="DeJ-2X-xd9"/>
                                 <exclude reference="cYI-HE-4UJ"/>
                                 <exclude reference="C2f-a4-nJc"/>
@@ -284,6 +287,7 @@
                                 <exclude reference="Dw3-jr-Yu3"/>
                                 <exclude reference="U32-je-Jrx"/>
                                 <exclude reference="kN4-1f-Hbg"/>
+                                <exclude reference="z8f-SM-58U"/>
                                 <exclude reference="kzB-V2-jbJ"/>
                                 <exclude reference="mix-an-2fY"/>
                                 <exclude reference="NWW-OZ-1gL"/>
